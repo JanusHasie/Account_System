@@ -65,7 +65,7 @@
 <!--                <artifactId>spring-boot-starter</artifactId>-->
 <!--                <version>2.3.4.RELEASE</version>-->
 <!--            </dependency>-->
-            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+             <!--https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -77,7 +77,6 @@
                 <artifactId>ojdbc8</artifactId>
                 <version>21.1.0.0</version>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
 
