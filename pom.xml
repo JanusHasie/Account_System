@@ -37,9 +37,14 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
-                <version>4.3.30.RELEASE</version>
+                <version>5.2.9.RELEASE</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+                <version>5.0.2.RELEASE</version>
+                <scope>compile</scope>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-parent</artifactId>
