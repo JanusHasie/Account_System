@@ -18,22 +18,12 @@ public class UserDetails implements Serializable{
     @Column(name = "USERID")
     private long AccountTypeId;
 
-    @Column(name = "USERIDNUMBER")
+
     private String USERIDNUMBER ;
-
-    @Column(name = "USERNAME")
     private String USERNAME ;
-
-    @Column(name = "USERLNAME")
     private String USERLNAME ;
-
-    @Column(name = "USERCELLNUM")
     private String USERCELLNUM ;
-
-    @Column(name = "USERAGE")
     private int USERAGE ;
-
-    @Column(name = "USERGENDER")
     private String USERGENDER ;
 
     public long getAccountTypeId() {
@@ -44,6 +34,7 @@ public class UserDetails implements Serializable{
         AccountTypeId = accountTypeId;
     }
 
+    @Column(name = "USERIDNUMBER")
     public String getUSERIDNUMBER() {
         return USERIDNUMBER;
     }
@@ -52,6 +43,7 @@ public class UserDetails implements Serializable{
         this.USERIDNUMBER = USERIDNUMBER;
     }
 
+    @Column(name = "USERNAME")
     public String getUSERNAME() {
         return USERNAME;
     }
@@ -60,6 +52,7 @@ public class UserDetails implements Serializable{
         this.USERNAME = USERNAME;
     }
 
+    @Column(name = "USERLNAME")
     public String getUSERLNAME() {
         return USERLNAME;
     }
@@ -68,6 +61,7 @@ public class UserDetails implements Serializable{
         this.USERLNAME = USERLNAME;
     }
 
+    @Column(name = "USERCELLNUM")
     public String getUSERCELLNUM() {
         return USERCELLNUM;
     }
@@ -76,6 +70,7 @@ public class UserDetails implements Serializable{
         this.USERCELLNUM = USERCELLNUM;
     }
 
+    @Column(name = "USERAGE")
     public int getUSERAGE() {
         return USERAGE;
     }
@@ -84,6 +79,7 @@ public class UserDetails implements Serializable{
         this.USERAGE = USERAGE;
     }
 
+    @Column(name = "USERGENDER")
     public String getUSERGENDER() {
         return USERGENDER;
     }
@@ -110,7 +106,7 @@ public class UserDetails implements Serializable{
     }
 
     @Override
-    public String toString() {
+    public String  toString() {
         return "UserDetails{" +
                 "AccountTypeId=" + AccountTypeId +
                 ", USERIDNUMBER='" + USERIDNUMBER + '\'' +
