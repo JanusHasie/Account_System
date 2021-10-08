@@ -1,3 +1,4 @@
 za\ac\nwu\ac\RestServiceApplication.class
 za\ac\nwu\ac\controller\DemoController.class
+za\ac\nwu\ac\config\SwaggerConfiguration.class
 za\ac\nwu\ac\config\WebConfig.class
