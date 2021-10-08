@@ -404,7 +404,7 @@
                     <artifactId>glassfish-copyright-maven-plugin</artifactId>
                     <version>1.28</version>
                     <configuration>
-                        <excludeFile>etc/config/copyright-exclude</excludeFile>
+                        <excludeFile>etc/repo.za.ac.nwu.repo.config/copyright-exclude</excludeFile>
                         <!--svn|mercurial|git - defaults to svn-->
                         <scm>git</scm>
                         <!-- turn on/off debugging -->
@@ -417,7 +417,7 @@
                         <update>false</update>
                         <!-- check that year is correct -->
                         <ignoreYear>false</ignoreYear>
-                        <templateFile>etc/config/copyright.txt</templateFile>
+                        <templateFile>etc/repo.za.ac.nwu.repo.config/copyright.txt</templateFile>
                     </configuration>
                 </plugin>
             </plugins>

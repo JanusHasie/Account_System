@@ -150,7 +150,7 @@
             </dependency>
             <dependency>
                 <groupId>org.glassfish.jersey.ext.microprofile</groupId>
-                <artifactId>jersey-mp-config</artifactId>
+                <artifactId>jersey-mp-repo.za.ac.nwu.repo.config</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

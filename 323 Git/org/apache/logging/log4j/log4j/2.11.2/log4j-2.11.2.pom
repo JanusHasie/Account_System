@@ -231,7 +231,7 @@
     <docLabel>Site Documentation</docLabel>
     <projectDir />
     <commonsLoggingVersion>1.2</commonsLoggingVersion>
-    <javax.persistence>2.1.1</javax.persistence>
+    <javax.repo.za.ac.nwu.repo.persistence>2.1.1</javax.repo.za.ac.nwu.repo.persistence>
     <!-- The OSGi API version MUST always be the MINIMUM version Log4j supports -->
     <osgi.api.version>4.3.1</osgi.api.version>
     <!-- Version 5.15.0 requires Java 8 -->
@@ -738,14 +738,14 @@
         <version>1.4.197</version>
       </dependency>
       <dependency>
-        <groupId>org.eclipse.persistence</groupId>
-        <artifactId>org.eclipse.persistence.jpa</artifactId>
+        <groupId>org.eclipse.repo.za.ac.nwu.repo.persistence</groupId>
+        <artifactId>org.eclipse.repo.za.ac.nwu.repo.persistence.jpa</artifactId>
         <version>2.6.5</version>
       </dependency>
       <dependency>
-        <groupId>org.eclipse.persistence</groupId>
-        <artifactId>javax.persistence</artifactId>
-        <version>${javax.persistence}</version>
+        <groupId>org.eclipse.repo.za.ac.nwu.repo.persistence</groupId>
+        <artifactId>javax.repo.za.ac.nwu.repo.persistence</artifactId>
+        <version>${javax.repo.za.ac.nwu.repo.persistence}</version>
         <scope>provided</scope>
       </dependency>
       <dependency>

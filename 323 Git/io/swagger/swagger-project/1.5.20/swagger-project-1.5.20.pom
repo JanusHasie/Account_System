@@ -211,7 +211,7 @@
                 <configuration>
                     <excludes>
                         <!-- TODO remove these excludes and add tests -->
-                        <exclude>**/io/swagger/config/FilterFactory.*</exclude>
+                        <exclude>**/io/swagger/repo.za.ac.nwu.repo.config/FilterFactory.*</exclude>
                         <exclude>**/io/swagger/model/ApiInfo.*</exclude>
                         <exclude>**/io/swagger/util/Yaml.*</exclude>
                         <exclude>**/io/swagger/jackson/*</exclude>
@@ -222,14 +222,14 @@
                         <exclude>**/io/swagger/jaxrs/json/JacksonJsonProvider.*</exclude>
                         <exclude>**/io/swagger/jaxrs/listing/ApiListingResource.*</exclude>
                         <exclude>**/io/swagger/jaxrs/listing/SwaggerSerializers.*</exclude>
-                        <exclude>**/io/swagger/jaxrs/config/WebXMLReader.*</exclude>
-                        <exclude>**/io/swagger/jaxrs/config/DefaultJaxrsScanner.*</exclude>
-                        <exclude>**/io/swagger/jaxrs/config/DefaultJaxrsConfig.*</exclude>
+                        <exclude>**/io/swagger/jaxrs/repo.za.ac.nwu.repo.config/WebXMLReader.*</exclude>
+                        <exclude>**/io/swagger/jaxrs/repo.za.ac.nwu.repo.config/DefaultJaxrsScanner.*</exclude>
+                        <exclude>**/io/swagger/jaxrs/repo.za.ac.nwu.repo.config/DefaultJaxrsConfig.*</exclude>
 
                         <!-- Servlet -->
-                        <exclude>**/io/swagger/servlet/config/WebXMLReader.*</exclude>
-                        <exclude>**/io/swagger/servlet/config/ServletScanner.*</exclude>
-                        <exclude>**/io/swagger/servlet/config/DefaultServletConfig.*</exclude>
+                        <exclude>**/io/swagger/servlet/repo.za.ac.nwu.repo.config/WebXMLReader.*</exclude>
+                        <exclude>**/io/swagger/servlet/repo.za.ac.nwu.repo.config/ServletScanner.*</exclude>
+                        <exclude>**/io/swagger/servlet/repo.za.ac.nwu.repo.config/DefaultServletConfig.*</exclude>
                         <exclude>**/io/swagger/servlet/listing/ApiDeclarationServlet.*</exclude>
                     </excludes>
                     <rules>

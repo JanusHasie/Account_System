@@ -70,8 +70,8 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>jakarta.persistence</groupId>
-      <artifactId>jakarta.persistence-api</artifactId>
+      <groupId>jakarta.repo.za.ac.nwu.repo.persistence</groupId>
+      <artifactId>jakarta.repo.za.ac.nwu.repo.persistence-api</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -88,8 +88,8 @@
           <groupId>javax.activation</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>javax.persistence-api</artifactId>
-          <groupId>javax.persistence</groupId>
+          <artifactId>javax.repo.za.ac.nwu.repo.persistence-api</artifactId>
+          <groupId>javax.repo.za.ac.nwu.repo.persistence</groupId>
         </exclusion>
         <exclusion>
           <artifactId>jboss-transaction-api_1.2_spec</artifactId>

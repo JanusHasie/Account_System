@@ -87,7 +87,7 @@
     <javax-jsonb.version>1.0</javax-jsonb.version>
     <javax-mail.version>1.6.2</javax-mail.version>
     <javax-money.version>1.0.3</javax-money.version>
-    <javax-persistence.version>2.2</javax-persistence.version>
+    <javax-repo.za.ac.nwu.repo.persistence.version>2.2</javax-repo.za.ac.nwu.repo.persistence.version>
     <javax-transaction.version>1.3</javax-transaction.version>
     <javax-validation.version>2.0.1.Final</javax-validation.version>
     <javax-websocket.version>1.1</javax-websocket.version>
@@ -1111,9 +1111,9 @@
         <version>${javax-money.version}</version>
       </dependency>
       <dependency>
-        <groupId>javax.persistence</groupId>
-        <artifactId>javax.persistence-api</artifactId>
-        <version>${javax-persistence.version}</version>
+        <groupId>javax.repo.za.ac.nwu.repo.persistence</groupId>
+        <artifactId>javax.repo.za.ac.nwu.repo.persistence-api</artifactId>
+        <version>${javax-repo.za.ac.nwu.repo.persistence.version}</version>
       </dependency>
       <dependency>
         <groupId>javax.servlet</groupId>
@@ -1351,7 +1351,7 @@
       </dependency>
       <dependency>
         <groupId>org.apache.activemq</groupId>
-        <artifactId>activemq-runtime-config</artifactId>
+        <artifactId>activemq-runtime-repo.za.ac.nwu.repo.config</artifactId>
         <version>${activemq.version}</version>
       </dependency>
       <dependency>
@@ -2289,12 +2289,12 @@
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
-        <artifactId>infinispan-persistence-cli</artifactId>
+        <artifactId>infinispan-repo.za.ac.nwu.repo.persistence-cli</artifactId>
         <version>${infinispan.version}</version>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
-        <artifactId>infinispan-persistence-soft-index</artifactId>
+        <artifactId>infinispan-repo.za.ac.nwu.repo.persistence-soft-index</artifactId>
         <version>${infinispan.version}</version>
       </dependency>
       <dependency>

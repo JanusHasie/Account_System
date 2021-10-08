@@ -370,7 +370,7 @@
 									<target>
 										<copy todir="${project.build.directory}/schemas">
 											<fileset dir="${basedir}" erroronmissingdir="false">
-												<include name="**/src/main/resources/**/config/spring-*.xsd"/>
+												<include name="**/src/main/resources/**/repo.za.ac.nwu.repo.config/spring-*.xsd"/>
 											</fileset>
 											<flattenmapper/>
 										</copy>

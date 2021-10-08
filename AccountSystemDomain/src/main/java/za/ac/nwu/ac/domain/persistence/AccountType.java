@@ -15,16 +15,18 @@ public class AccountType implements Serializable{
     @SequenceGenerator(name = "VIT_RSA_GENERIC_REQ", sequenceName = "VITRSA_SANDBOX.VIT_RSA_GENERIC_SEQ", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "VIT_RSA_GENERIC_SEQ")
 
-    private long TYPEOFACCOUNT;
+    private AccountType TYPEOFACCOUNT;
     private float REWARDSKEY ;
 
 
     @Column(name = "TYPEOFACCOUNT")
-    public long getTYPEOFACCOUNT() {
+    @ManyToOne(fetch =  FetchType.LAZY)
+    @JoinColumn(name = "TYPEOFACCOUNT")
+    public AccountType getTYPEOFACCOUNT() {
         return TYPEOFACCOUNT;
     }
 
-    public void setTYPEOFACCOUNT(long TYPEOFACCOUNT) {
+    public void setTYPEOFACCOUNT(AccountType TYPEOFACCOUNT) {
         this.TYPEOFACCOUNT = TYPEOFACCOUNT;
     }
 
