@@ -15,10 +15,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <dependency>
             <groupId>za.ac.nwu.ac</groupId>
             <artifactId>AccountSystemDomain</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>za.ac.nwu.ac</groupId>
             <artifactId>AccountSystemLogic</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

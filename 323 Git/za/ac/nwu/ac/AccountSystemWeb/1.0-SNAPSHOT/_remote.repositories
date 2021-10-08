@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Oct 07 19:57:12 SAST 2021
+AccountSystemWeb-1.0-SNAPSHOT.jar>=
+AccountSystemWeb-1.0-SNAPSHOT.war>=
+AccountSystemWeb-1.0-SNAPSHOT.pom>=
