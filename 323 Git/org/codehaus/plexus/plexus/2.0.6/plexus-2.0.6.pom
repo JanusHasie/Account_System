@@ -407,8 +407,8 @@ limitations under the License.
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>2.2</version>
             <configuration>
-              <configLocation>http://svn.apache.org/repos/asf/maven/plugins/tags/maven-checkstyle-plugin-2.2/src/main/resources/repo.za.ac.nwu.repo.config/maven_checks.xml</configLocation>
-              <headerLocation>http://svn.codehaus.org/plexus/pom/trunk/src/main/resources/repo.za.ac.nwu.repo.config/plexus-header.txt</headerLocation>
+              <configLocation>http://svn.apache.org/repos/asf/maven/plugins/tags/maven-checkstyle-plugin-2.2/src/main/resources/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/maven_checks.xml</configLocation>
+              <headerLocation>http://svn.codehaus.org/plexus/pom/trunk/src/main/resources/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/plexus-header.txt</headerLocation>
             </configuration>
           </plugin>
           <plugin>

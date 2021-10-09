@@ -76,7 +76,7 @@
                 <copy failonerror="false" file="src/main/resources/org/mortbay/jetty/webapp/webdefault.xml" tofile="../../etc/webdefault.xml" />
                 <copy failonerror="false" includeEmptyDirs="false" todir="../../etc">
                   <flattenmapper />
-                  <fileset dir="src/main/repo.za.ac.nwu.repo.config/etc">
+                  <fileset dir="src/main/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/etc">
                     <include name="jetty.xml"/>
                     <include name="jetty-bio.xml"/>
                     <include name="jetty-xinetd.xml"/>

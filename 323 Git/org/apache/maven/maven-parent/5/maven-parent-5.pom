@@ -337,8 +337,8 @@ under the License.
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
             <configuration>
-              <configLocation>http://svn.apache.org/repos/asf/maven/plugins/trunk/maven-checkstyle-plugin/src/main/resources/repo.za.ac.nwu.repo.config/maven_checks.xml</configLocation>
-              <headerLocation>http://svn.apache.org/repos/asf/maven/plugins/trunk/maven-checkstyle-plugin/src/main/resources/repo.za.ac.nwu.repo.config/maven-header.txt</headerLocation>
+              <configLocation>http://svn.apache.org/repos/asf/maven/plugins/trunk/maven-checkstyle-plugin/src/main/resources/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/maven_checks.xml</configLocation>
+              <headerLocation>http://svn.apache.org/repos/asf/maven/plugins/trunk/maven-checkstyle-plugin/src/main/resources/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/maven-header.txt</headerLocation>
             </configuration>
           </plugin>
           <plugin>

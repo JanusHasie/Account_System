@@ -325,7 +325,7 @@
                         <excludes>
                             <exclude>**/README.md</exclude>
                             <exclude>**/README.txt</exclude>
-                            <exclude>**/repo.za.ac.nwu.repo.config.properties</exclude>
+                            <exclude>**/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config.properties</exclude>
                             <exclude>**/log.properties</exclude>
                             <exclude>testdata/**</exclude>
                             <exclude>snappy-cc/**</exclude>

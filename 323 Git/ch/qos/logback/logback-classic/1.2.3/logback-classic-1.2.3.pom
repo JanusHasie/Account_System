@@ -308,7 +308,7 @@
             <Export-Package>ch.qos.logback.classic*, org.slf4j.impl;version=${slf4j.version}</Export-Package>
             <!-- LB-CLASSIC It is necessary to specify the rolling
                  file packages as classes are created via IOC (xml
-                 repo.za.ac.nwu.repo.config files). They won't be found by Bnd's analysis
+                 repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config files). They won't be found by Bnd's analysis
                  of java code. -->
             <Import-Package>
               sun.reflect;resolution:=optional,

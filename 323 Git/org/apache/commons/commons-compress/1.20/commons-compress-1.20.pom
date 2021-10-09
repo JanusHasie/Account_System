@@ -268,7 +268,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.
   <build>
     <pluginManagement>
       <plugins>
-        <!-- Override Javadoc repo.za.ac.nwu.repo.config in parent pom to add JCIP tags -->
+        <!-- Override Javadoc repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config in parent pom to add JCIP tags -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
@@ -421,7 +421,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.
           </rulesets>
         </configuration>
       </plugin>
-      <!-- Override Javadoc repo.za.ac.nwu.repo.config in parent pom to add JCIP tags -->
+      <!-- Override Javadoc repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config in parent pom to add JCIP tags -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>

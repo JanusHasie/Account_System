@@ -623,7 +623,7 @@ Version 39:
         <artifactId>maven-bundle-plugin</artifactId>
         <configuration>
           <!--
-            dummy entry to stop bundle plugin from picking up jar repo.za.ac.nwu.repo.config and reporting
+            dummy entry to stop bundle plugin from picking up jar repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config and reporting
             WARNING: Duplicate name in Manifest
             See http://markmail.org/message/mpkl24wk3jrjhhjg
           -->
@@ -659,7 +659,7 @@ Version 39:
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
-        <!-- Should agree with repo.za.ac.nwu.repo.config in reporting section -->
+        <!-- Should agree with repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config in reporting section -->
         <configuration>
           <!--
                If you wish to override this list in the component (child) pom, ensure you use
@@ -833,7 +833,7 @@ Version 39:
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
         <version>${commons.rat.version}</version>
-        <!-- Should agree with repo.za.ac.nwu.repo.config in build section -->
+        <!-- Should agree with repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config in build section -->
         <configuration>
           <!--
                If you wish to override this list in the component (child) pom, ensure you use

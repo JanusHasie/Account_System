@@ -1351,7 +1351,7 @@
       </dependency>
       <dependency>
         <groupId>org.apache.activemq</groupId>
-        <artifactId>activemq-runtime-repo.za.ac.nwu.repo.config</artifactId>
+        <artifactId>activemq-runtime-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config</artifactId>
         <version>${activemq.version}</version>
       </dependency>
       <dependency>

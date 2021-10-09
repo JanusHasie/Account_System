@@ -117,7 +117,7 @@
                         <exclude>org/apache/pdfbox/rendering/TestPDFToImage.java</exclude>
                     </excludes>
                     <systemPropertyVariables>
-                        <java.util.logging.repo.za.ac.nwu.repo.config.file>src/test/resources/logging.properties</java.util.logging.repo.za.ac.nwu.repo.config.file>
+                        <java.util.logging.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config.file>src/test/resources/logging.properties</java.util.logging.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config.file>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
