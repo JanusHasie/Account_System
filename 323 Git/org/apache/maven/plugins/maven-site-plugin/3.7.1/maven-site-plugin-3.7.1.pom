@@ -28,35 +28,35 @@
       <name>Naoki Nose</name>
       <email>ikkoan@mail.goo.ne.jp</email>
       <roles>
-        <role>Japanese translator</role>
+        <role>Japanese za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Michael Wechner</name>
       <email>michael.wechner@wyona.com</email>
       <roles>
-        <role>German translator</role>
+        <role>German za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Christian Schulte</name>
       <email>cs@schulte.it</email>
       <roles>
-        <role>German translator</role>
+        <role>German za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Piotr Bzdyl</name>
       <email>piotr@bzdyl.net</email>
       <roles>
-        <role>Polish translator</role>
+        <role>Polish za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Domingos Creado</name>
       <email>dcreado@users.sf.net</email>
       <roles>
-        <role>Brazilian Portuguese translator</role>
+        <role>Brazilian Portuguese za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
@@ -67,70 +67,70 @@
       <name>Laszlo Hornyak Kocka</name>
       <email>laszlo.hornyak@gmail.com</email>
       <roles>
-        <role>Hungarian translator</role>
+        <role>Hungarian za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Hermod Opstvedt</name>
       <email>hermod.opstvedt@dnbnor.no</email>
       <roles>
-        <role>Norwegian translator</role>
+        <role>Norwegian za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Yue Ni</name>
       <email>ni2yue4@gmail.com</email>
       <roles>
-        <role>Chinese translator</role>
+        <role>Chinese za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Arturo Vazquez</name>
       <email>vaz@root.com.mx</email>
       <roles>
-        <role>Spanish translator</role>
+        <role>Spanish za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Woonsan Ko</name>
       <email>woon_san@yahoo.com</email>
       <roles>
-        <role>Korean translator</role>
+        <role>Korean za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Martin Vysny</name>
       <email>mvy@whitestein.com</email>
       <roles>
-        <role>Slovak translator</role>
+        <role>Slovak za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Petr Ferschmann</name>
       <email>pferschmann@softeu.com</email>
       <roles>
-        <role>Czech translator</role>
+        <role>Czech za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Kristian Mandrup</name>
       <email>kristian@mandrup.dk</email>
       <roles>
-        <role>Danish translator</role>
+        <role>Danish za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Samuel Santos</name>
       <email>samaxes@gmail.com</email>
       <roles>
-        <role>Portuguese translator</role>
+        <role>Portuguese za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Mindaugas Greibus</name>
       <email>spantus@gmail.com</email>
       <roles>
-        <role>Lithuanian translator</role>
+        <role>Lithuanian za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
@@ -144,14 +144,14 @@
       <name>Yevgeny Nyden</name>
       <email>yev@curre.net</email>
       <roles>
-        <role>Russian translator</role>
+        <role>Russian za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
     <contributor>
       <name>Daniel Fernández</name>
       <email>daniel.fernandez.garrido@gmail.com</email>
       <roles>
-        <role>Galician translator</role>
+        <role>Galician za.ac.nwu.ac.config.TranslatorConfig</role>
       </roles>
     </contributor>
   </contributors>

@@ -2,7 +2,6 @@ package za.ac.nwu.ac.domain.persistence;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
@@ -15,18 +14,24 @@ public class AccountType implements Serializable{
     @SequenceGenerator(name = "VIT_RSA_GENERIC_REQ", sequenceName = "VITRSA_SANDBOX.VIT_RSA_GENERIC_SEQ", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "VIT_RSA_GENERIC_SEQ")
 
-    private AccountType TYPEOFACCOUNT;
+    private String TYPEOFACCOUNT;
     private float REWARDSKEY ;
 
+    public AccountType(String TYPEOFACCOUNT, float REWARDSKEY) {
+        this.TYPEOFACCOUNT = TYPEOFACCOUNT;
+        this.REWARDSKEY = REWARDSKEY;
+    }
+
+    public AccountType(){}
 
     @Column(name = "TYPEOFACCOUNT")
     @ManyToOne(fetch =  FetchType.LAZY)
     @JoinColumn(name = "TYPEOFACCOUNT")
-    public AccountType getTYPEOFACCOUNT() {
+    public String getTYPEOFACCOUNT() {
         return TYPEOFACCOUNT;
     }
 
-    public void setTYPEOFACCOUNT(AccountType TYPEOFACCOUNT) {
+    public void setTYPEOFACCOUNT(String TYPEOFACCOUNT) {
         this.TYPEOFACCOUNT = TYPEOFACCOUNT;
     }
 

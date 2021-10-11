@@ -3,7 +3,6 @@ set echo on;
 create table USERDETAILS (
     USERID VARCHAR2(255 BYTE) not null,
     USERIDNUMBER VARCHAR(13) not null,
-    USERNAME VARCHAR2(255 BYTE) not null,
     USERLNAME VARCHAR2(255 BYTE) not null,
     USERCELLNUM VARCHAR(10) not null,
     USERAGE NUMBER(2),

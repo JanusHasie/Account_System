@@ -13,7 +13,8 @@ import javax.transaction.Transactional;
 @Component("createAccountTypeFlowName")
 public class CreateAccountTypeFlowImpl implements CreateAccountTypeFlow {
 
-    private final AccountTypeTranslator accountTypeTranslator;public CreateAccountTypeFlowImpl(AccountTypeTranslator accountTypeTranslator) {
+    private final AccountTypeTranslator accountTypeTranslator;
+    public CreateAccountTypeFlowImpl(AccountTypeTranslator accountTypeTranslator) {
         this.accountTypeTranslator = accountTypeTranslator;
     }
 
