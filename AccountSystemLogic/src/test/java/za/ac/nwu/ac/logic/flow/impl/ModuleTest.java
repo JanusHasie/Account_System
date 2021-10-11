@@ -20,10 +20,14 @@ public class ModuleTest {
         assertEquals("Should be value 4", 4, result.intValue());
     }
 
-    @Test(expected = RuntimeException.class)
+    @Test
     public void testModBy() {
-        mod.doMod(9,0);
-        fail("Should throw and exception");
+        try {
+            mod.doMod(9, 0);
+            fail("Should throw and exception");
+        }catch(Exception e) {
+            assertTrue("Unexpected action",e.getMessage().equalsIgnoreCase("Reason"));
+        }
     }
 
 
