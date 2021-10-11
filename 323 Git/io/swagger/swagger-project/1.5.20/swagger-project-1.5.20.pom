@@ -211,7 +211,7 @@
                 <configuration>
                     <excludes>
                         <!-- TODO remove these excludes and add tests -->
-                        <exclude>**/io/swagger/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/FilterFactory.*</exclude>
+                        <exclude>**/io/swagger/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/FilterFactory.*</exclude>
                         <exclude>**/io/swagger/model/ApiInfo.*</exclude>
                         <exclude>**/io/swagger/util/Yaml.*</exclude>
                         <exclude>**/io/swagger/jackson/*</exclude>
@@ -222,14 +222,14 @@
                         <exclude>**/io/swagger/jaxrs/json/JacksonJsonProvider.*</exclude>
                         <exclude>**/io/swagger/jaxrs/listing/ApiListingResource.*</exclude>
                         <exclude>**/io/swagger/jaxrs/listing/SwaggerSerializers.*</exclude>
-                        <exclude>**/io/swagger/jaxrs/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/WebXMLReader.*</exclude>
-                        <exclude>**/io/swagger/jaxrs/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/DefaultJaxrsScanner.*</exclude>
-                        <exclude>**/io/swagger/jaxrs/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/DefaultJaxrsConfig.*</exclude>
+                        <exclude>**/io/swagger/jaxrs/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/WebXMLReader.*</exclude>
+                        <exclude>**/io/swagger/jaxrs/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/DefaultJaxrsScanner.*</exclude>
+                        <exclude>**/io/swagger/jaxrs/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/DefaultJaxrsConfig.*</exclude>
 
                         <!-- Servlet -->
-                        <exclude>**/io/swagger/servlet/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/WebXMLReader.*</exclude>
-                        <exclude>**/io/swagger/servlet/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/ServletScanner.*</exclude>
-                        <exclude>**/io/swagger/servlet/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/DefaultServletConfig.*</exclude>
+                        <exclude>**/io/swagger/servlet/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/WebXMLReader.*</exclude>
+                        <exclude>**/io/swagger/servlet/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/ServletScanner.*</exclude>
+                        <exclude>**/io/swagger/servlet/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/DefaultServletConfig.*</exclude>
                         <exclude>**/io/swagger/servlet/listing/ApiDeclarationServlet.*</exclude>
                     </excludes>
                     <rules>

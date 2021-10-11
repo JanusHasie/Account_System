@@ -66,24 +66,24 @@
             </dependency>
             <dependency>
                 <groupId>org.jboss.arquillian.core</groupId>
-                <artifactId>arquillian-core-impl-base</artifactId>
+                <artifactId>arquillian-core-za.ac.nwu.ac.translator.impl-base</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- Config -->
             <dependency>
-                <groupId>org.jboss.arquillian.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config</groupId>
-                <artifactId>arquillian-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config-api</artifactId>
+                <groupId>org.jboss.arquillian.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config</groupId>
+                <artifactId>arquillian-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.jboss.arquillian.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config</groupId>
-                <artifactId>arquillian-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config-spi</artifactId>
+                <groupId>org.jboss.arquillian.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config</groupId>
+                <artifactId>arquillian-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config-spi</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.jboss.arquillian.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config</groupId>
-                <artifactId>arquillian-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config-impl-base</artifactId>
+                <groupId>org.jboss.arquillian.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config</groupId>
+                <artifactId>arquillian-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config-za.ac.nwu.ac.translator.impl-base</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -100,7 +100,7 @@
             </dependency>
             <dependency>
                 <groupId>org.jboss.arquillian.test</groupId>
-                <artifactId>arquillian-test-impl-base</artifactId>
+                <artifactId>arquillian-test-za.ac.nwu.ac.translator.impl-base</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -112,7 +112,7 @@
             </dependency>
             <dependency>
                 <groupId>org.jboss.arquillian.container</groupId>
-                <artifactId>arquillian-container-impl-base</artifactId>
+                <artifactId>arquillian-container-za.ac.nwu.ac.translator.impl-base</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -129,7 +129,7 @@
             </dependency>
             <dependency>
                 <groupId>org.jboss.arquillian.container</groupId>
-                <artifactId>arquillian-container-test-impl-base</artifactId>
+                <artifactId>arquillian-container-test-za.ac.nwu.ac.translator.impl-base</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

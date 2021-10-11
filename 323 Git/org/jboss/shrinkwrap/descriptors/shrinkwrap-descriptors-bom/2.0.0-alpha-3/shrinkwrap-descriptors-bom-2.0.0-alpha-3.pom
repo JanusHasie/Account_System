@@ -74,17 +74,17 @@
       </dependency>
       <dependency>
         <groupId>org.jboss.shrinkwrap.descriptors</groupId>
-        <artifactId>shrinkwrap-descriptors-impl-base</artifactId>
+        <artifactId>shrinkwrap-descriptors-za.ac.nwu.ac.translator.impl-base</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.shrinkwrap.descriptors</groupId>
-        <artifactId>shrinkwrap-descriptors-impl-javaee</artifactId>
+        <artifactId>shrinkwrap-descriptors-za.ac.nwu.ac.translator.impl-javaee</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.shrinkwrap.descriptors</groupId>
-        <artifactId>shrinkwrap-descriptors-impl-jboss</artifactId>
+        <artifactId>shrinkwrap-descriptors-za.ac.nwu.ac.translator.impl-jboss</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>

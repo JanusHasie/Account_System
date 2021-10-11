@@ -613,7 +613,7 @@
         <artifactId>maven-bundle-plugin</artifactId>
         <configuration>
           <!--
-            dummy entry to stop bundle plugin from picking up jar repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config and reporting
+            dummy entry to stop bundle plugin from picking up jar repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config and reporting
             WARNING: Duplicate name in Manifest
             See http://markmail.org/message/mpkl24wk3jrjhhjg
           -->
@@ -649,7 +649,7 @@
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
-        <!-- Should agree with repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config in reporting section -->
+        <!-- Should agree with repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config in reporting section -->
         <configuration>
           <!--
             If you wish to override this list in the component (child) pom, ensure you use
@@ -833,7 +833,7 @@
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
         <version>${commons.rat.version}</version>
-        <!-- Should agree with repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config in build section -->
+        <!-- Should agree with repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config in build section -->
         <configuration>
           <!--
             If you wish to override this list in the component (child) pom, ensure you use
@@ -1661,7 +1661,7 @@
 
       [ERROR] Failed to execute goal org.apache.maven.plugins:maven-site-plugin:3.5.1:site (default-site) on project commons-parent:
       Execution default-site of goal org.apache.maven.plugins:maven-site-plugin:3.5.1:site failed:
-      A required class was missing while executing org.apache.maven.plugins:maven-site-plugin:3.5.1:site: org/apache/maven/doxia/sink/impl/XhtmlBaseSink
+      A required class was missing while executing org.apache.maven.plugins:maven-site-plugin:3.5.1:site: org/apache/maven/doxia/sink/za.ac.nwu.ac.translator.impl/XhtmlBaseSink
 
       This is because Apache POM 17 forces an older version of Doxia core:
       https://mail-archives.apache.org/mod_mbox/maven-users/201602.mbox/%3C2337255.xU7aS9G1qr@herve-desktop%3E

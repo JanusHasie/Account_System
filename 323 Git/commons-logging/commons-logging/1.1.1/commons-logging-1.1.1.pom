@@ -192,11 +192,11 @@
 
                 <unjar src="${project.build.directory}/${project.build.finalName}.jar" dest="${workdir}" />
                 <jar basedir="${workdir}" destfile="${project.build.directory}/${target}.jar" manifest="${basedir}/src/conf/MANIFEST.MF">
-                  <exclude name="org/apache/commons/logging/impl/Log4J*" />
-                  <exclude name="org/apache/commons/logging/impl/Avalon*" />
-                  <exclude name="org/apache/commons/logging/impl/Jdk13*" />
-                  <exclude name="org/apache/commons/logging/impl/LogKit*" />
-                  <exclude name="org/apache/commons/logging/impl/Servlet*" />
+                  <exclude name="org/apache/commons/logging/za.ac.nwu.ac.translator.impl/Log4J*" />
+                  <exclude name="org/apache/commons/logging/za.ac.nwu.ac.translator.impl/Avalon*" />
+                  <exclude name="org/apache/commons/logging/za.ac.nwu.ac.translator.impl/Jdk13*" />
+                  <exclude name="org/apache/commons/logging/za.ac.nwu.ac.translator.impl/LogKit*" />
+                  <exclude name="org/apache/commons/logging/za.ac.nwu.ac.translator.impl/Servlet*" />
                 </jar>
               </tasks>
             </configuration>
@@ -218,8 +218,8 @@
                 <unjar src="${project.build.directory}/${project.build.finalName}.jar" dest="${workdir}" />
                 <jar basedir="${workdir}" destfile="${project.build.directory}/${target}.jar" manifest="${basedir}/src/conf/MANIFEST.MF">
                   <exclude name="org/apache/commons/logging/*" />
-                  <exclude name="org/apache/commons/logging/impl/WeakHashtable*" />
-                  <exclude name="org/apache/commons/logging/impl/LogFactoryImpl*" />
+                  <exclude name="org/apache/commons/logging/za.ac.nwu.ac.translator.impl/WeakHashtable*" />
+                  <exclude name="org/apache/commons/logging/za.ac.nwu.ac.translator.impl/LogFactoryImpl*" />
                 </jar>
               </tasks>
             </configuration>

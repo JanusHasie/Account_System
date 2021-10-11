@@ -244,10 +244,10 @@
                 <argument>-Jnorun</argument>
                 <argument>-Jnoconstruct</argument>
                 <argument>-Jclass=DefaultJavaCommentParser</argument>
-                <argument>-Jpackage=com.thoughtworks.qdox.parser.impl</argument>
+                <argument>-Jpackage=com.thoughtworks.qdox.parser.za.ac.nwu.ac.translator.impl</argument>
                 <argument>${basedir}/src/grammar/commentparser.y</argument>
               </arguments>
-              <workingDirectory>${project.build.directory}/generated-sources/parser/com/thoughtworks/qdox/parser/impl</workingDirectory>
+              <workingDirectory>${project.build.directory}/generated-sources/parser/com/thoughtworks/qdox/parser/za.ac.nwu.ac.translator.impl</workingDirectory>
             </configuration>
           </execution>
           <execution>
@@ -265,11 +265,11 @@
                 <argument>-Jclass=Parser</argument>
                 <argument>-Jimplements=CommentHandler</argument>
                 <argument>-Jsemantic=Value</argument>
-                <argument>-Jpackage=com.thoughtworks.qdox.parser.impl</argument>
+                <argument>-Jpackage=com.thoughtworks.qdox.parser.za.ac.nwu.ac.translator.impl</argument>
                 <argument>-Jstack=${qdox.javaparser.stack}</argument>
                 <argument>${basedir}/src/grammar/parser.y</argument>
               </arguments>
-              <workingDirectory>${project.build.directory}/generated-sources/parser/com/thoughtworks/qdox/parser/impl</workingDirectory>
+              <workingDirectory>${project.build.directory}/generated-sources/parser/com/thoughtworks/qdox/parser/za.ac.nwu.ac.translator.impl</workingDirectory>
             </configuration>
           </execution>
         </executions>

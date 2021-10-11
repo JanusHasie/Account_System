@@ -678,8 +678,8 @@ under the License.
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>2.3</version>
             <configuration>
-              <configLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/maven_checks.xml</configLocation>
-              <headerLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/maven-header.txt</headerLocation>
+              <configLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/maven_checks.xml</configLocation>
+              <headerLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/maven-header.txt</headerLocation>
             </configuration>
           </plugin>
           <plugin>

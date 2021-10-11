@@ -55,7 +55,7 @@
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
-        <artifactId>spring-security-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config</artifactId>
+        <artifactId>spring-security-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config</artifactId>
         <version>5.3.3.RELEASE</version>
       </dependency>
       <dependency>

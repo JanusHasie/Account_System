@@ -1,5 +1,5 @@
+za\ac\nwu\ac\controller\AccountTypeController.class
 za\ac\nwu\ac\RestServiceApplication.class
 za\ac\nwu\ac\controller\DemoController.class
-za\ac\nwu\ac\config\SwaggerConfiguration.class
-za\ac\nwu\ac\config\WebConfig.class
-za\ac\nwu\ac\controller\UserDetailsController.class
+za\ac\nwu\ac\translator\config\SwaggerConfiguration.class
+za\ac\nwu\ac\translator\config\WebConfig.class

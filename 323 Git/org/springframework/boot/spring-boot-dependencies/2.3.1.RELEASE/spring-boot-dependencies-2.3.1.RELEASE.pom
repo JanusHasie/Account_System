@@ -197,7 +197,7 @@
     <rxjava-adapter.version>1.2.1</rxjava-adapter.version>
     <rxjava2.version>2.2.19</rxjava2.version>
     <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
-    <saaj-impl.version>1.5.2</saaj-impl.version>
+    <saaj-za.ac.nwu.ac.translator.impl.version>1.5.2</saaj-za.ac.nwu.ac.translator.impl.version>
     <selenium.version>3.141.59</selenium.version>
     <selenium-htmlunit.version>2.40.0</selenium-htmlunit.version>
     <sendgrid.version>4.4.8</sendgrid.version>
@@ -361,7 +361,7 @@
       </dependency>
       <dependency>
         <groupId>org.apache.activemq</groupId>
-        <artifactId>activemq-runtime-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config</artifactId>
+        <artifactId>activemq-runtime-repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config</artifactId>
         <version>${activemq.version}</version>
       </dependency>
       <dependency>
@@ -2576,8 +2576,8 @@
       </dependency>
       <dependency>
         <groupId>com.sun.xml.messaging.saaj</groupId>
-        <artifactId>saaj-impl</artifactId>
-        <version>${saaj-impl.version}</version>
+        <artifactId>saaj-za.ac.nwu.ac.translator.impl</artifactId>
+        <version>${saaj-za.ac.nwu.ac.translator.impl.version}</version>
       </dependency>
       <dependency>
         <groupId>org.seleniumhq.selenium</groupId>

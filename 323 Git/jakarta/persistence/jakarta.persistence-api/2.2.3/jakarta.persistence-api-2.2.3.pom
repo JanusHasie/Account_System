@@ -88,7 +88,7 @@
         <spec.non.final>false</spec.non.final>
         <spec.version>2.2</spec.version>
         <spec.build>01</spec.build>
-        <spec.impl.version>2.2.3</spec.impl.version>
+        <spec.za.ac.nwu.ac.translator.impl.version>2.2.3</spec.za.ac.nwu.ac.translator.impl.version>
         <spec.api.package>jakarta.repo.za.ac.nwu.repo.persistence</spec.api.package>
         <spec.new.spec.version>2.3</spec.new.spec.version>
         <legal.doc.source>${project.basedir}</legal.doc.source>
@@ -197,7 +197,7 @@
                         <jarType>api</jarType>
                         <specVersion>${spec.version}</specVersion>
                         <specBuild>${spec.build}</specBuild>
-                        <specImplVersion>${spec.impl.version}</specImplVersion>
+                        <specImplVersion>${spec.za.ac.nwu.ac.translator.impl.version}</specImplVersion>
                         <apiPackage>${spec.api.package}</apiPackage>
                         <newSpecVersion>${spec.new.spec.version}</newSpecVersion>
                     </spec>

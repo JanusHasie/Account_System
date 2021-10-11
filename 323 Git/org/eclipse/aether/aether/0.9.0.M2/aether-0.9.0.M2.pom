@@ -116,7 +116,7 @@
     <module>aether-api</module>
     <module>aether-spi</module>
     <module>aether-util</module>
-    <module>aether-impl</module>
+    <module>aether-za.ac.nwu.ac.translator.impl</module>
     <module>aether-test-util</module>
     <module>aether-connector-file</module>
     <module>aether-connector-wagon</module>
@@ -150,7 +150,7 @@
       </dependency>
       <dependency>
         <groupId>org.eclipse.aether</groupId>
-        <artifactId>aether-impl</artifactId>
+        <artifactId>aether-za.ac.nwu.ac.translator.impl</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
@@ -339,7 +339,7 @@
               </group>
               <group>
                 <title>Implementation</title>
-                <packages>org.eclipse.aether.impl*</packages>
+                <packages>org.eclipse.aether.za.ac.nwu.ac.translator.impl*</packages>
               </group>
               <group>
                 <title>Internals</title>

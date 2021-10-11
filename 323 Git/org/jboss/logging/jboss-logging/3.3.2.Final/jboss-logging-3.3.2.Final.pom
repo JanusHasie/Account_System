@@ -136,7 +136,7 @@
                             ${project.groupId}.*;version=${project.version};-split-package:=error
                         </Export-Package>
                         <Import-Package>
-                            org.apache.log4j.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config;resolution:=optional,
+                            org.apache.log4j.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config;resolution:=optional,
                             *;resolution:=optional
                         </Import-Package>
                     </instructions>

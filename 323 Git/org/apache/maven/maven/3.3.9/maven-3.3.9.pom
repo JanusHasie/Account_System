@@ -319,7 +319,7 @@
       </dependency>
       <dependency>
         <groupId>org.eclipse.aether</groupId>
-        <artifactId>aether-impl</artifactId>
+        <artifactId>aether-za.ac.nwu.ac.translator.impl</artifactId>
         <version>${aetherVersion}</version>
       </dependency>
       <dependency>

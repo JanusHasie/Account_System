@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
-@Table(name = "USERDETAILS")
+@Table(name = "AccountType")
 public class AccountType implements Serializable{
 
     private static final long serialVersionUID = 6481782169831339626L;
@@ -14,34 +14,55 @@ public class AccountType implements Serializable{
     @SequenceGenerator(name = "VIT_RSA_GENERIC_REQ", sequenceName = "VITRSA_SANDBOX.VIT_RSA_GENERIC_SEQ", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "VIT_RSA_GENERIC_SEQ")
 
-    private String TYPEOFACCOUNT;
-    private float REWARDSKEY ;
+    private Long AccountTypeID;
+    private String TypeOfAccount;
+    private float RewardsKey ;
+    private String mnemonic;
 
-    public AccountType(String TYPEOFACCOUNT, float REWARDSKEY) {
-        this.TYPEOFACCOUNT = TYPEOFACCOUNT;
-        this.REWARDSKEY = REWARDSKEY;
+    public AccountType(Long AccountTypeID, String TypeOfAccount, float RewardsKey, String mnemonic) {
+        this.AccountTypeID = AccountTypeID;
+        this.TypeOfAccount = TypeOfAccount;
+        this.RewardsKey = RewardsKey;
+        this.mnemonic = mnemonic;
     }
 
-    public AccountType(){}
-
-    @Column(name = "TYPEOFACCOUNT")
-    @ManyToOne(fetch =  FetchType.LAZY)
-    @JoinColumn(name = "TYPEOFACCOUNT")
-    public String getTYPEOFACCOUNT() {
-        return TYPEOFACCOUNT;
+    public AccountType(String typeOfAccount, float rewardsKey, String mnemonic) {
     }
 
-    public void setTYPEOFACCOUNT(String TYPEOFACCOUNT) {
-        this.TYPEOFACCOUNT = TYPEOFACCOUNT;
+    @Column(name = "AccountTypeID")
+    public Long getAccountTypeID() {
+        return AccountTypeID;
     }
 
-    @Column(name = "REWARDSKEY")
-    public float getREWARDSKEY() {
-        return REWARDSKEY;
+    public void setAccountTypeID(Long accountTypeID) {
+        AccountTypeID = accountTypeID;
     }
 
-    public void setREWARDSKEY(float REWARDSKEY) {
-        this.REWARDSKEY = REWARDSKEY;
+    @Column(name = "TypeOfAccount")
+    public String getTypeOfAccount() {
+        return TypeOfAccount;
+    }
+
+    public void setTypeOfAccount(String typeOfAccount) {
+        TypeOfAccount = typeOfAccount;
+    }
+
+    @Column(name = "RewardsKey")
+    public float getRewardsKey() {
+        return RewardsKey;
+    }
+
+    public void setRewardsKey(float rewardsKey) {
+        RewardsKey = rewardsKey;
+    }
+
+    @Column(name = "mnemonic")
+    public String getMnemonic() {
+        return mnemonic;
+    }
+
+    public void setMnemonic(String mnemonic) {
+        this.mnemonic = mnemonic;
     }
 
     @Override
@@ -49,19 +70,21 @@ public class AccountType implements Serializable{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         AccountType that = (AccountType) o;
-        return TYPEOFACCOUNT == that.TYPEOFACCOUNT && Float.compare(that.REWARDSKEY, REWARDSKEY) == 0;
+        return Float.compare(that.RewardsKey, RewardsKey) == 0 && Objects.equals(AccountTypeID, that.AccountTypeID) && Objects.equals(TypeOfAccount, that.TypeOfAccount) && Objects.equals(mnemonic, that.mnemonic);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(TYPEOFACCOUNT, REWARDSKEY);
+        return Objects.hash(AccountTypeID, TypeOfAccount, RewardsKey, mnemonic);
     }
 
     @Override
     public String toString() {
         return "AccountType{" +
-                "TYPEOFACCOUNT=" + TYPEOFACCOUNT +
-                ", REWARDSKEY=" + REWARDSKEY +
+                "AccountTypeID=" + AccountTypeID +
+                ", TypeOfAccount='" + TypeOfAccount + '\'' +
+                ", RewardsKey=" + RewardsKey +
+                ", mnemonic='" + mnemonic + '\'' +
                 '}';
     }
 }

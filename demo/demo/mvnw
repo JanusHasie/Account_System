@@ -68,7 +68,7 @@ esac
 
 if [ -z "$JAVA_HOME" ] ; then
   if [ -r /etc/gentoo-release ] ; then
-    JAVA_HOME=`java-za.ac.nwu.ac.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config --jre-home`
+    JAVA_HOME=`java-za.ac.nwu.ac.repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.za.ac.nwu.ac.translator.config --jre-home`
   fi
 fi
 

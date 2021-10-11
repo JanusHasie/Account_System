@@ -359,18 +359,18 @@
       </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
-        <artifactId>log4j-slf4j-impl</artifactId>
+        <artifactId>log4j-slf4j-za.ac.nwu.ac.translator.impl</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
-        <artifactId>log4j-slf4j-impl</artifactId>
+        <artifactId>log4j-slf4j-za.ac.nwu.ac.translator.impl</artifactId>
         <version>${project.version}</version>
         <type>zip</type>
       </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
-        <artifactId>log4j-slf4j18-impl</artifactId>
+        <artifactId>log4j-slf4j18-za.ac.nwu.ac.translator.impl</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
@@ -1353,8 +1353,8 @@
     <module>log4j-core</module>
     <module>log4j-core-its</module>
     <module>log4j-1.2-api</module>
-    <module>log4j-slf4j-impl</module>
-    <module>log4j-slf4j18-impl</module>
+    <module>log4j-slf4j-za.ac.nwu.ac.translator.impl</module>
+    <module>log4j-slf4j18-za.ac.nwu.ac.translator.impl</module>
     <module>log4j-to-slf4j</module>
     <module>log4j-jcl</module>
     <module>log4j-flume-ng</module>

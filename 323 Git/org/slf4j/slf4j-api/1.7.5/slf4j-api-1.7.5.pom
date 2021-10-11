@@ -77,7 +77,7 @@
         <configuration>
           <tasks>
             <echo>Removing slf4j-api's dummy StaticLoggerBinder and StaticMarkerBinder</echo>
-            <delete dir="target/classes/org/slf4j/impl"/>
+            <delete dir="target/classes/org/slf4j/za.ac.nwu.ac.translator.impl"/>
           </tasks>
         </configuration>
       </plugin>

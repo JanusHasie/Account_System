@@ -390,7 +390,7 @@
         <artifactId>maven-bundle-plugin</artifactId>
         <configuration>
           <!-- 
-            dummy entry to stop bundle plugin from picking up jar repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config and reporting
+            dummy entry to stop bundle plugin from picking up jar repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config and reporting
             WARNING: Duplicate name in Manifest
             See http://markmail.org/message/mpkl24wk3jrjhhjg 
           -->

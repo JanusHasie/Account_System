@@ -349,7 +349,7 @@ under the License.
               <exclude>src/it/**/*.txt</exclude>
               <!-- The following is used to exclude files with the extension *.file -->
               <exclude>src/it/**/*.file</exclude>
-              <exclude>src/it/projects/filtering-feature/filters-defined-in-build/src/main/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/**</exclude>
+              <exclude>src/it/projects/filtering-feature/filters-defined-in-build/src/main/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/**</exclude>
               <exclude>src/it/projects/bugs/massembly-731/**</exclude>
               <exclude>.java-version</exclude>
             </excludes>

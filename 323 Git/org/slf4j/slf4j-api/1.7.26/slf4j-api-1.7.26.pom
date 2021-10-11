@@ -27,9 +27,9 @@
           <!-- Signatures cannot be determined and will error unless excluded.  This is isolated to
                code otherwise already marked for removal in the module artifact. -->
           <ignores>
-            <ignore>org.slf4j.impl.StaticMDCBinder</ignore>
-            <ignore>org.slf4j.impl.StaticLoggerBinder</ignore>
-            <ignore>org.slf4j.impl.StaticMarkerBinder</ignore>
+            <ignore>org.slf4j.za.ac.nwu.ac.translator.impl.StaticMDCBinder</ignore>
+            <ignore>org.slf4j.za.ac.nwu.ac.translator.impl.StaticLoggerBinder</ignore>
+            <ignore>org.slf4j.za.ac.nwu.ac.translator.impl.StaticMarkerBinder</ignore>
           </ignores>
         </configuration>
       </plugin>
@@ -76,7 +76,7 @@
         <configuration>
           <tasks>
             <echo>Removing slf4j-api's dummy StaticLoggerBinder and StaticMarkerBinder</echo>
-            <delete dir="target/classes/org/slf4j/impl"/>
+            <delete dir="target/classes/org/slf4j/za.ac.nwu.ac.translator.impl"/>
           </tasks>
         </configuration>
       </plugin>

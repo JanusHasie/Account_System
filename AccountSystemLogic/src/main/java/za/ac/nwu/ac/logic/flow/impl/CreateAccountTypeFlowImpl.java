@@ -20,9 +20,9 @@ public class CreateAccountTypeFlowImpl implements CreateAccountTypeFlow {
 
     @Override
     public AccountType create(AccountType accountType) {
-        float rewardsKey = accountType.getREWARDSKEY();
-        if(0 == accountType.getREWARDSKEY()) {
-            accountType.setREWARDSKEY(rewardsKey);
+//        float rewardsKey = accountType.getRewardsKey();
+        if(0 == accountType.getRewardsKey()) {
+            accountType.setRewardsKey(0);
         }
         return accountTypeTranslator.create(accountType);
     }

@@ -1,19 +1,21 @@
 package za.ac.nwu.ac.translator;
 
+import za.ac.nwu.ac.domain.dto.AccountTypeDto;
 import za.ac.nwu.ac.domain.persistence.AccountType;
 import za.ac.nwu.ac.domain.persistence.RewardStore;
 import za.ac.nwu.ac.domain.persistence.UserDetails;
 
-public class AccountTypeTranslator {
-    public AccountType create(AccountType accountType) {
+public interface AccountTypeTranslator {
+    AccountTypeDto getAccountTypeDtoByMnemonic(String mnemonic);
 
-    }
-    
-    public RewardStore create(RewardStore multiplier){
-        
-    }
+    AccountTypeDto create(AccountTypeDto accountType);
 
-    public UserDetails create(UserDetails userIDnum) {
+    AccountTypeDto getAccountTypeByMnemonicNativeQuery(AccountTypeDto mnemonic);
+    AccountTypeDto getAccountTypeByMnemonic(String mnemonic);
 
-    }
+    AccountType create(AccountType accountType);
+
+    RewardStore create(RewardStore multiplier);
+
+    UserDetails create(UserDetails userIDnum);
 }

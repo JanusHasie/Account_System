@@ -311,7 +311,7 @@ file comparators, endian transformation classes, and much more.
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
-        <!-- Must agree with report section RAT repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config -->
+        <!-- Must agree with report section RAT repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config -->
         <configuration>
           <excludes>
             <exclude>src/test/resources/**/*.bin</exclude>
@@ -357,7 +357,7 @@ file comparators, endian transformation classes, and much more.
       <plugin>
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
-        <!-- Must agree with build section RAT repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config -->
+        <!-- Must agree with build section RAT repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config -->
         <configuration>
           <excludes>
             <exclude>src/test/resources/**/*.bin</exclude>

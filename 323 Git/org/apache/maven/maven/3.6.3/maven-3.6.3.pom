@@ -357,7 +357,7 @@ under the License.
       </dependency>
       <dependency>
         <groupId>org.apache.maven.resolver</groupId>
-        <artifactId>maven-resolver-impl</artifactId>
+        <artifactId>maven-resolver-za.ac.nwu.ac.translator.impl</artifactId>
         <version>${resolverVersion}</version>
       </dependency>
       <dependency>

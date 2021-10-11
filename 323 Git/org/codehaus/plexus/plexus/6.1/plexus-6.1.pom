@@ -351,8 +351,8 @@ limitations under the License.
           <artifactId>maven-checkstyle-plugin</artifactId>
           <version>3.0.0</version>
           <configuration>
-            <configLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/maven_checks.xml</configLocation>
-            <headerLocation>https://raw.github.com/codehaus-plexus/plexus-pom/master/src/main/resources/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/plexus-header.txt</headerLocation>
+            <configLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/maven_checks.xml</configLocation>
+            <headerLocation>https://raw.github.com/codehaus-plexus/plexus-pom/master/src/main/resources/repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/plexus-header.txt</headerLocation>
           </configuration>
           <dependencies>
             <!-- MCHECKSTYLE-327: the maven_checks.xml was moved to a shared project -->

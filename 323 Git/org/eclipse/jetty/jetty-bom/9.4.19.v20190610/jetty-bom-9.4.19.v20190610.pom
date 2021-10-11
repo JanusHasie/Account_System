@@ -435,12 +435,12 @@
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
-        <artifactId>javax-websocket-client-impl</artifactId>
+        <artifactId>javax-websocket-client-za.ac.nwu.ac.translator.impl</artifactId>
         <version>9.4.19.v20190610</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
-        <artifactId>javax-websocket-server-impl</artifactId>
+        <artifactId>javax-websocket-server-za.ac.nwu.ac.translator.impl</artifactId>
         <version>9.4.19.v20190610</version>
       </dependency>
       <dependency>

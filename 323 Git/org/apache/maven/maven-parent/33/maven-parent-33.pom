@@ -947,8 +947,8 @@ under the License.
           <artifactId>maven-checkstyle-plugin</artifactId>
           <version>3.0.0</version>
           <configuration>
-            <configLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/maven_checks.xml</configLocation>
-            <headerLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.config/maven-header.txt</headerLocation>
+            <configLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/maven_checks.xml</configLocation>
+            <headerLocation>repo.za.ac.nwu.repo.za.ac.nwu.ac.logic.za.ac.nwu.ac.translator.config/maven-header.txt</headerLocation>
             <!-- workaround to avoid analysing generated content (Modello, plugin help mojo, ...) -->
             <sourceDirectories>
               <sourceDirectory>src/main/java</sourceDirectory>

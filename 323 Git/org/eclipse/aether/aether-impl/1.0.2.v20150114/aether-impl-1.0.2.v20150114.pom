@@ -20,7 +20,7 @@
     <version>1.0.2.v20150114</version>
   </parent>
 
-  <artifactId>aether-impl</artifactId>
+  <artifactId>aether-za.ac.nwu.ac.translator.impl</artifactId>
 
   <name>Aether Implementation</name>
   <description>
@@ -28,7 +28,7 @@
   </description>
 
   <properties>
-    <bundle.symbolicName>org.eclipse.aether.impl</bundle.symbolicName>
+    <bundle.symbolicName>org.eclipse.aether.za.ac.nwu.ac.translator.impl</bundle.symbolicName>
   </properties>
 
   <dependencies>
