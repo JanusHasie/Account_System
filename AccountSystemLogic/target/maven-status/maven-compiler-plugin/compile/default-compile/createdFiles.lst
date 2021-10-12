@@ -2,6 +2,7 @@ za\ac\nwu\ac\logic\flow\impl\CreateRewardStoreFlowImpl.class
 za\ac\nwu\ac\logic\flow\CreateUserDetailsFlow.class
 za\ac\nwu\ac\logic\flow\FetchAccountTypeFlow.class
 za\ac\nwu\ac\logic\config\LogicConfig.class
+za\ac\nwu\ac\logic\flow\impl\Module.class
 za\ac\nwu\ac\logic\flow\impl\FetchAccountTypeFlowImpl.class
 za\ac\nwu\ac\logic\flow\CreateRewardStoreFlow.class
 za\ac\nwu\ac\logic\flow\impl\CreateUserDetailsFlowImpl.class

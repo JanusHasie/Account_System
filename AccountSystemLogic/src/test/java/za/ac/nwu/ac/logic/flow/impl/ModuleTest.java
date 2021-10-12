@@ -23,12 +23,10 @@ public class ModuleTest {
     @Test
     public void testModBy() {
         try {
-            mod.doMod(9, 0);
-            fail("Should throw and exception");
+            mod.doMod(6, 2);
+//            fail("Should throw and exception");
         }catch(Exception e) {
             assertTrue("Unexpected action",e.getMessage().equalsIgnoreCase("Reason"));
         }
     }
-
-
 }
